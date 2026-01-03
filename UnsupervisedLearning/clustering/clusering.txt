@@ -1,0 +1,8 @@
+| Type         | Key Idea                                | Algorithms              | Handles Noise? | Shape of Clusters    | Need k? |
+| ------------ | --------------------------------------- | ----------------------- | -------------- | -------------------- | ------- |
+| Partition    | Assign points to k groups               | K-Means, K-Medoids      | ❌              | Spherical            | ✅       |
+| Hierarchical | Merge/split clusters hierarchically     | AHC, DIANA              | ❌              | Any (depends)        | ❌       |
+| Density      | Dense areas separated by sparse regions | DBSCAN, OPTICS, HDBSCAN | ✅              | Arbitrary            | ❌       |
+| Model-based  | Probabilistic mixture models            | GMM, HMM                | ❌              | Elliptical (usually) | ✅       |
+| Graph-based  | Partition similarity graph              | Spectral Clustering     | ✅              | Arbitrary            | ✅/❌     |
+

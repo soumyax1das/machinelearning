@@ -4,3 +4,5 @@ pandas>=2.0.0
 scikit-learn
 matplotlib
 mlxtend
+matplotlib
+seaborn
